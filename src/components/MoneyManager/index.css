@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.nameContainer {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  background-size: cover;
+  width: 80%;
+  padding: 20px;
+}
+
+.moneyManager {
+  color: #0b69ff;
+}
+
+.moneyDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.form-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Form title styles */
+.form-container h1 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form label styles */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Form input styles */
+.form-container input[type='text'],
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Form button styles */
+.form-container button[type='submit'] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.transaction-table {
+  width: 40%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #f8f8f8;
+}
+
+.transaction-table tbody tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.transContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.transactions-table {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}

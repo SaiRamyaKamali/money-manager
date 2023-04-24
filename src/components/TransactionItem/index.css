@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.delete {
+  width: 20px;
+}
+
+.deleteButton {
+  border: none;
+  background-color: white;
+}
